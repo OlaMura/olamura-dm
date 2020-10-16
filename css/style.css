@@ -1,0 +1,780 @@
+@font-face {
+  font-family: 'olamura';
+  src: url('../font/font/olamura.eot?27613103');
+  src: url('../font/font/olamura.eot?27613103#iefix') format('embedded-opentype'),
+       url('../font/font/olamura.woff?27613103') format('woff'),
+       url('../font/font/olamura.ttf?27613103') format('truetype'),
+       url('../font/font/olamura.svg?27613103#olamura') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cc-window {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  padding: 2rem;
+  border: 3px solid #FFF;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;   
+}
+
+.cc-message  {
+  width: 100%;
+}
+.cc-bottom {
+  bottom: 0;
+  left: 0;
+}
+
+.cc-invisible {
+  display: none;
+}
+
+.cc-revoke {
+  display: none;
+}
+
+.cc-compliance {
+  margin-top: 1rem;
+}
+
+.cc-compliance a {
+  cursor: pointer;
+}
+
+.cc-compliance a:last-child {
+  margin-left: 1rem;
+}
+
+.icon {
+  font-family: "olamura";
+  font-style: normal;
+  font-weight: normal;
+  
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  
+  /* You can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #fff;
+  display: block;
+  margin: 0;
+  font-weight: 300;
+}
+
+.pad {
+  padding: 2rem;
+}
+
+.sand {
+  background-color: #fcf3ea;
+}
+
+.blue {
+  background-color: #162640;
+}
+
+.blueColor {
+  color: #162640;
+}
+
+.white {
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sideintro {
+  height: 50vh;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+#logo {
+  position: fixed;
+  z-index: 2;
+  max-width: 200px;
+  top: 100px;
+  transform-origin: left center;
+  transform: translateY(-50%) scale(1.2);
+  margin-left: 2rem;
+  margin-top: 0;
+}
+
+#headerContainer {
+  width: 100%;
+  height: 4rem;
+  background-color: #fcf3ea;
+  position: fixed;
+  z-index: 1;
+}
+
+.introsection {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.introContainer {
+  padding: 2rem 2rem 5rem 2rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+  opacity: 1;
+}
+
+.block {
+  height: 4px;
+  width: 0;
+  background-color: #162640;
+  margin-bottom: 0rem;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.placeholder {
+  height: 2rem;
+}
+
+.block2 {
+  height: 3px;
+  background-color: #fcf3ea;
+  margin-bottom: 0rem;
+  opacity: 1;
+  transform: translateY(10px);
+}
+
+.block22 {
+  height: 3px;
+  width: 50px;
+  opacity: 1;
+}
+
+.block3 {
+  height: 3px;
+  background-color: #fcf3ea;
+  margin-bottom: 0rem;
+  width: 50%;
+  opacity: 1;
+  transform: translateY(10px);
+  float: right;
+}
+
+#welcomeP {
+  opacity: 0;
+}
+
+#welcomeHeadline {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+#leistungen {
+  padding-top: 5rem;
+  margin-top: 100px;
+}
+
+.leistungSection {
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+.leistungenHeadline h1 {
+  font-weight: 600;
+  color: #fcf3ea;
+  font-size: 2rem;
+}
+
+.leistungenHeadline p {
+  color: #fcf3ea;
+}
+
+.question {
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.answer {
+  text-align: right;
+  font-weight: 200;
+}
+
+#imgSection {
+  position: relative;
+}
+
+#imgSection img {
+  display: block;
+}
+
+.reveal {
+  opacity: 0.2;
+}
+
+#kontakt h6 {
+  margin: 0;
+  color: #162640;
+  font-size: 1rem;
+}
+
+#kontakt p {
+  margin-top: 1rem;
+}
+
+#kontakt a {
+  display: block;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+#kontakt a i {
+  vertical-align: bottom;
+  transition: opacity 220ms;
+  opacity: 1;
+}
+
+#kontakt a:hover i {
+  opacity: 0.75;
+}
+#kontakt .icon-xing {
+  padding-top: 7px;
+}
+
+.kontaktbutton {
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.kontaktbuttonWrapper {
+  display: flex;
+}
+
+.kontaktanfrage {
+  margin-top: 2rem;
+}
+
+
+footer.pad {
+  padding: 6rem 2rem 2rem 2rem;
+}
+
+#footerblock {
+  margin-bottom: 2rem;
+  width: 50px;
+}
+
+footer h5 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+footer > div > div {
+  margin-bottom: 1rem;
+}
+footer > div > div > div {
+  margin-bottom: 1rem;
+}
+
+footer a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+footer a:first-child {
+  margin-bottom: 0.5rem;
+}
+
+.desktopWrapper {
+  flex-direction: column;
+}
+
+.address p, .address a {
+  display: inline;
+  font-size: 1rem;
+}
+
+.address .mail {
+  padding-left: 0;
+}
+
+#desktopNav {
+  display: block;
+}
+
+#desktopNav ul {
+  transform-origin: left top;
+  transform: rotate(-90deg) translatey(100%);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: 3;
+}
+#desktopNav li {
+  display: inline-block;
+  /* You can also add some margins here to make it look prettier */
+  zoom: 1;
+  display: inline;
+  margin-right: 1rem;
+}
+
+#desktopNav li:first-of-type {
+  margin-right: 0rem;
+  padding-top: 20px;
+}
+
+nav img {
+  display: inline;
+  width: 30px;
+}
+
+#desktopNav img {
+  display: inline-block;
+  width: 30px;
+  transform: rotate(90deg);
+}
+
+
+
+#desktopNav a {
+  text-decoration: none;
+  color: #162640
+}
+
+#revokeCookie {
+  border: 4px solid #FFF;
+  display: block;
+  cursor: pointer;
+}
+
+#revokeCookie p {
+  margin: 0;
+  padding: 1rem;
+}
+
+
+
+nav li a {
+  position: relative;
+  transition: opacity 220ms;
+}
+
+nav li a:hover {
+  opacity: 0.65;
+}
+
+nav li span {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: 5px;
+  transition: all 220ms;
+  background-color: rgb(22, 38, 64);
+}
+
+nav li .active span {
+  width: 100%;
+}
+
+.cc-allow {
+  padding: 0.5rem;
+  border: 1px solid #FFF !important;
+}
+
+
+/* Main menu positionning */
+.main-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 0;
+  z-index: -1;
+  visibility: hidden;
+  transition: all 0.375s;
+}
+
+.main-nav.is-open {
+  opacity: 1;
+  z-index: 100;
+  visibility: visible;
+}
+
+/* Yellow band effect */
+.main-nav::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -15px;
+  background: #fcf3ea;
+  transform-origin: 0 0;
+  transform: skew(-14deg) translateX(-120%);
+  transition: all 0.275s 0.1s;
+}
+
+.main-nav.is-open::before {
+  transform: skew(-14deg) translateX(0);
+}
+
+/* Skewing effect on menu links */
+.main-nav ul {
+  display: inline-flex;
+  flex-direction: column;
+  height: 93%; /* Should be 100%, but we have a notice message :D */
+  align-items: flex-end;
+  justify-content: center;
+  transform: translateX(-18%) skew(-16deg);
+}
+
+.main-nav li {
+  display: block;
+  margin: 0.5rem 0;
+  text-align: right;
+  transform: skew(16deg);
+}
+
+/* Apparition effect on links */
+.main-nav a {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.main-nav.is-open a {
+  opacity: 1;
+  transform: translateY(0);
+}
+.main-nav li:nth-child(1) a {
+  transition: all 275ms 175ms;
+}
+.main-nav li:nth-child(2) a {
+  transition: all 275ms 225ms;
+}
+.main-nav li:nth-child(3) a {
+  transition: all 275ms 275ms;
+}
+.main-nav li:nth-child(4) a {
+  transition: all 275ms 325ms;
+}
+.main-nav li:nth-child(5) a {
+  transition: all 275ms 375ms;
+}
+
+/* Decoration */
+.main-nav ul,
+.main-nav li {
+  list-style: none;
+  padding: 0;
+}
+.main-nav a {
+  display: block;
+  padding: 12px 0;
+  color: #162640;
+  font-size: 1.4em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.open-main-nav {
+  position: fixed;
+  top: 1rem;
+  padding-top: 20px;
+  right: 1rem;
+  z-index: 1000;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.open-main-nav:focus {
+  outline: none;
+}
+.burger {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 2px;
+  margin: 0 auto;
+  background: #162640;
+  transition: all 0.275s;
+}
+
+.burger:after,
+.burger:before {
+  content: '';
+  display: block;
+  height: 100%;
+  background: #162640;
+  transition: all 0.275s;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.burger:after {
+  transform: translateY(-10px);
+}
+
+.burger:before {
+  transform: translateY(-16px);
+}
+
+/* Toggle State part */
+.is-open .burger {
+  transform: translateY(-8px) rotate(-40deg);
+}
+
+.is-open .burger:before {
+  transform: translateY(0px) rotate(75deg);
+}
+
+.is-open .burger:after {
+  transform: translateY(-12px);
+  opacity: 0;
+}
+
+.socials {
+  display: inline !important;
+}
+
+.light {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+#imgSection h3 {
+  position: relative;
+  flex-wrap: nowrap;
+  width: 200px;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 850px) {
+  #burger {
+    display: block;
+  }
+
+  #main-nav {
+    display: block;
+  }
+
+  #desktopNav {
+    display: none;
+  }
+
+  #imgSection {
+    margin-top: 3rem;
+  }
+}
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 850px) {
+  
+  #revokeCookie {
+    display: inline;
+    float: right;
+  }
+
+  nav li span {
+    bottom: -3px;
+    height: 1px;
+  }
+
+  #burger {
+    display: none;;
+  }
+
+  .placeholder {
+    height: 4rem;
+  }
+
+  .block22 {
+    height: 3px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  .desktop {
+    display: block;
+  }
+
+  #imgSection > div {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #imgSection .wrapper {
+    padding: 2rem;
+    position: relative;
+  }
+
+  #imgSection h3 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    margin: 0;
+    padding-top: 0;
+    padding-left: 2rem;
+  }
+
+  #imgSection img {
+    display: flex;
+    width: 60%;
+  }
+
+  .intro {
+    height: 150px;
+  }
+
+  .desktopWrapper {
+    flex-direction: row;
+    display: flex;
+  }
+
+  footer a:first-child {
+    margin-bottom: 0;
+  }
+
+  .desktopWrapper .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .leistungSection > div {
+    padding-left: 2rem;
+  }
+
+  #kontakt {
+    padding-top: 4rem;
+  }
+
+  .kontaktanfrage {
+    margin-top: 4rem;
+  }
+  
+  .kontakttalk {
+    margin: 0;
+
+  }
+
+  .kontakttalk h2 {
+    margin: 0;
+  }
+
+  .kontaktbutton {
+    margin-top: 0;
+  }
+
+  .kontaktbuttonWrapper {
+    margin-left: auto;
+  }
+
+  footer a {
+    padding-left: 1rem;
+    padding-top: 2px;
+  }
+
+  img#logo {
+    margin-left: 0;
+    transform: translateY(-50%) scale(1.8);
+    top: 150px;
+  }
+}
+
+.impressPrivacy p, h1, h1, h2, h3, h5, h6 {
+  margin-bottom: 2rem;
+}
+
+.impressPrivacy li {
+  color: #FFF;
+  margin-bottom: 1rem;;
+}
+
+.impressPrivacy section a {
+  color: #FFF;
+}

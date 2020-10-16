@@ -1,0 +1,21 @@
+<div itemscope itemtype="https://schema.org/Person">
+  <span itemprop="name">Ola Mura</span>
+  <img src="Ola_Mura_Digital_Marketing_Manager.jpg" itemprop="image" alt="Ola Mura Digital Marketing Portratit Foto"/>
+  <span itemprop="jobTitle">Digital Marketing Manager</span>
+  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <span itemprop="streetAddress">
+      Mülheimer Freiheit 128
+      51063 Köln
+    </span>
+    <span itemprop="addressLocality">Köln</span>,
+    <span itemprop="addressRegion">Nordrhein-Westfalen</span>
+    <span itemprop="postalCode">51063</span>
+  </div>
+  <span itemprop="telephone">015159474380</span>
+  <a href="mailto:info@olamura.com" itemprop="email">
+    info@olamura.com</a>
+Homepage von Ola Mura:
+  <a href="http://www.olamura.com" itemprop="url">olamura.com</a>
+</div>
+
+
