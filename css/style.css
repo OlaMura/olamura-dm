@@ -177,6 +177,10 @@ h1 {
   opacity: 1;
 }
 
+.introContainer .wrapper {
+  padding-top: 5rem;
+}
+
 .block {
   height: 4px;
   width: 0;
