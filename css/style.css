@@ -190,6 +190,10 @@ h1 {
   transform: translateY(10px);
 }
 
+#block2 {
+  width: 50px;
+}
+
 .placeholder {
   height: 2rem;
 }
@@ -370,6 +374,7 @@ footer a:first-child {
   left: 0;
   position: fixed;
   z-index: 3;
+  margin: 0;
 }
 #desktopNav li {
   display: inline-block;
@@ -399,7 +404,8 @@ nav img {
 
 #desktopNav a {
   text-decoration: none;
-  color: #162640
+  color: #162640;
+  padding: 1rem 0;
 }
 
 #revokeCookie {
@@ -604,6 +610,7 @@ nav li .active span {
 
 .socials {
   display: inline !important;
+  padding: 1rem !important;
 }
 
 .light {
@@ -635,6 +642,14 @@ nav li .active span {
 
   #imgSection {
     margin-top: 3rem;
+  }
+
+  #kontakt a {
+    padding: 22px;
+  }
+
+  #kontakt a:first-child {
+    margin-left: -18px;
   }
 }
 
@@ -743,10 +758,13 @@ nav li .active span {
   
   .kontakttalk {
     margin: 0;
+    display: flex;
+    align-items: center;
 
   }
 
   .kontakttalk h2 {
+    display: flex;
     margin: 0;
   }
 
